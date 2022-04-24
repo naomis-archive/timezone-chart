@@ -62,9 +62,9 @@ describe('AppComponent', () => {
     const footer = compiled.querySelector('footer');
     expect(footer).toBeTruthy();
     const content = footer.querySelectorAll('p');
-    expect(content[0].textContent).toContain('© 2021 Nicholas Carrigan');
+    expect(content[0].textContent).toContain('© 2021 Naomi Carrigan');
     const link = content[0].querySelector('a');
-    expect(link.textContent).toContain('Nicholas Carrigan');
+    expect(link.textContent).toContain('Naomi Carrigan');
     expect(link.href).toBe('https://www.nhcarrigan.com/');
   });
 });
